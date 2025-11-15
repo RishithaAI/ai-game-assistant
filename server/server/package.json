@@ -1,0 +1,18 @@
+{
+  "name": "ai-game-assistant-multi",
+  "version": "1.0.0",
+  "description": "Multi-game AI Hint Assistant (sudoku, 2048, tictactoe, chess stub)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
